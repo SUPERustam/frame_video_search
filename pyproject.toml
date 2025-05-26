@@ -1,0 +1,29 @@
+[tool.ruff]
+line-length = 160
+preview = true
+exclude = [
+    ".git",
+    "__pycache__",
+    ".idea",
+    "tests/data",
+    "core_dataset"
+]
+
+[tool.ruff.lint]
+extend-select = ["Q000", "E203"]
+select = [
+  "ANN",      # flake8-annotations
+  "B",        # flake8-bugbear
+  "A",        # flake8-builtins
+  "C",        # flake8-clean-block
+  "I",        # flake8-import-order
+  "RUF100",        # flake8-multiline-containers
+  "T",        # flake8-print
+  "Q",        # flake8-quotes
+  "E",        # pycodestyle (PEP8 errors)
+  "N",        # pep8-naming
+]
+
+
+[tool.ruff.format]
+quote-style = "double"

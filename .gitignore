@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# env
+.env
+.venv
+.ruff_cache/
+
+# Apple files
+.DS_Store
+
+annotation
+core_dataset
+cash_frames/
+*.mp4
+*.flv
+keyframe-extractor/
+.idea/
+cash
+cash_query
+
+data/
+db/
+
+*.zip
+
+# for llm
+docs/отчет.md 
+docs/confluence_*

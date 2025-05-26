@@ -1,0 +1,23 @@
+[flake8]
+ 
+max-line-length = 160
+max-complexity = 10
+inline-quotes = "
+ 
+application-import-names = src
+import-order-style = pycharm
+ 
+# enable File(...) in fastapi code
+extend-immutable-calls = File, fastapi.File
+ 
+exclude =
+    .git,
+    __pycache__,
+    .idea,
+    core_dataset,
+    .venv,
+    .env
+ 
+# ANN101 - type annotations for self
+ignore =
+    ANN101

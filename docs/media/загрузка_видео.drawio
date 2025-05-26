@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
+  <diagram name="Page-1" id="p8nG_dF74-P2C3RxciBf">
+    <mxGraphModel dx="978" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uhbbGNyaq-mE9ClTEx7G-1" target="uhbbGNyaq-mE9ClTEx7G-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-1" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="145" y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uhbbGNyaq-mE9ClTEx7G-2" target="uhbbGNyaq-mE9ClTEx7G-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-2" value="0 &amp;lt;= n - количество видео в базе данных&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="116.56" y="120" width="196.87" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uhbbGNyaq-mE9ClTEx7G-7" target="uhbbGNyaq-mE9ClTEx7G-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uhbbGNyaq-mE9ClTEx7G-7" target="uhbbGNyaq-mE9ClTEx7G-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="381" y="230" />
+              <mxPoint x="381" y="740" />
+              <mxPoint x="215" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-7" value="0 &amp;lt;= i &amp;lt; n" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="137.5" y="210" width="155" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uhbbGNyaq-mE9ClTEx7G-9" target="uhbbGNyaq-mE9ClTEx7G-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-9" value="Проверка корректности видеофайла" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="127.5" y="280" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uhbbGNyaq-mE9ClTEx7G-11" target="uhbbGNyaq-mE9ClTEx7G-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-11" value="Извлечение ключевых кадров - m" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="360" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uhbbGNyaq-mE9ClTEx7G-13" target="uhbbGNyaq-mE9ClTEx7G-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="141.5" y="230" as="targetPoint" />
+            <mxPoint x="331.5" y="475" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="350" y="475" />
+              <mxPoint x="350" y="720" />
+              <mxPoint x="70" y="720" />
+              <mxPoint x="70" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-13" value="0 &amp;lt;= j &amp;lt; m" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="102.5" y="450" width="225" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="uhbbGNyaq-mE9ClTEx7G-15" target="uhbbGNyaq-mE9ClTEx7G-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-15" value="Преобразование кадра в хеш с помощью выбранной хеш-функции" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="103.75" y="530" width="222.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="uhbbGNyaq-mE9ClTEx7G-18" target="uhbbGNyaq-mE9ClTEx7G-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="680" />
+              <mxPoint x="83" y="680" />
+              <mxPoint x="83" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-18" value="Запись хеша в базу данных" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="107.5" y="630" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uhbbGNyaq-mE9ClTEx7G-24" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="153.75" y="760" width="116.25" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

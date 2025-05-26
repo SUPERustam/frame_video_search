@@ -1,0 +1,29 @@
+image: nexus.intra.ispras.ru:31332/dind-for-gitlab-runner
+
+stages:
+  - lint
+
+.docker-base:
+  variables:
+      DOCKER_HOST: tcp://docker:2375
+      DOCKER_TLS_CERTDIR: ""
+      GIT_SUBMODULE_STRATEGY: recursive
+  services:
+    - name: nexus.intra.ispras.ru:31342/docker:20-dind
+      alias: docker
+  before_script:
+    - docker login -u $NEXUS_USERNAME -p $NEXUS_PASSWORD nexus.intra.ispras.ru:31334
+
+
+lint:
+  image: nexus.intra.ispras.ru:31342/python:3.9.18
+  stage: lint
+  cache: []
+  before_script:
+    - pip install -r requirements-lint.txt -i https://${NEXUS_USERNAME}:${NEXUS_PASSWORD}@nexus.intra.ispras.ru/repository/pypi-public/simple
+  script:
+    - flake8 .
+  rules:
+    - if: "$CI_MERGE_REQUEST_ID"
+  tags:
+    - iva
