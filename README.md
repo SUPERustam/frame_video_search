@@ -1,4 +1,4 @@
-# frame_video_search
+# [IVMEM'2025] Shazam Algorithm for Partial Video Copy Detection [Paper](https://ispranproceedings.elpub.ru/jour/article/view/2077)
 
 Эксперименты по поиску видео по фрагменту.
 
